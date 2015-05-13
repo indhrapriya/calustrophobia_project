@@ -65,6 +65,7 @@
      <Compile Include="Assets\OVR\Scripts\Util\OVRVisionGuide.cs" />
      <Compile Include="Assets\RoomConfig.cs" />
      <Compile Include="Assets\Walls.cs" />
+     <Compile Include="Assets\tokeepitstatic.cs" />
      <None Include="Assets\Plugins\donotdelete.txt" />
      <None Include="Assets\Plugins\x86_64\donotdelete.txt" />
      <None Include="Assets\OVR\Shaders\TextShader3D.shader" />

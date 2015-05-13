@@ -55,6 +55,11 @@ public class RoomConfig : MonoBehaviour {
 		doc.Element ("scaleZ").Value = length;
 		//doc.Element ("count").Value = people;
 		doc.Save("config.xml");
+		int noofpeople = int.Parse(people);
+		if (noofpeople == 0) {
+			tokeepitstatic obj = new tokeepitstatic();
+			obj.setVisibility();		
+		}
 		Application.LoadLevel ("main_scene");
 	}
 }
